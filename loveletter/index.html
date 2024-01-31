@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Love Letter</title>
+</head>
+<body>
+    <div class='game'>
+        <div class='game_loader'>
+          <div class='game_loader__inner'>
+            <div class='subtitle'>
+              <h1>叮铃铃，您有一封邮件送达</h1>
+            </div>
+            <div class='bar'>
+              <div class='bar_inner'></div>
+            </div>
+            <span>加载中...</span>
+          </div>
+        </div>
+        <div class='game_intro'>
+          <input checked='checked' class='dialogue' id='intro-1' name='intro' type='radio'>
+          <div class='dialogue'>
+            嗨您好！我是小刘快递员
+            <label for='intro-2'>
+              <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/arrowMovement.png'>
+            </label>
+          </div>
+          <input class='dialogue' id='intro-2' name='intro' type='radio'>
+          <div class='dialogue'>
+            这里有一封信件等待您的签收
+            <label for='intro-3'>
+              <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/arrowMovement.png'>
+            </label>
+          </div>
+          <input class='dialogue' id='intro-3' name='intro' type='radio'>
+          <div class='dialogue'>
+            这封信件的寄件人是一个小老头，他嘱咐我把这封信交给一位叫小丫头的可爱女生
+            <label for='intro-4'>
+              <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/arrowMovement.png'>
+            </label>
+          </div>
+          <input class='dialogue' id='intro-4' name='intro' type='radio'>
+          <div class='dialogue'>
+            请最可爱的小丫头签收这封信.
+            <label for='intro-5'>
+              <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/arrowMovement.png'>
+            </label>
+          </div>
+          <input class='dialogue' id='intro-5' name='intro' type='radio'>
+          <div class='dialogue end'>
+            丫头点击那张信纸哦
+          </div>
+          <input class='dialogue' id='intro-6' name='intro' type='radio'>
+          <div class='overlay'></div>
+        </div>
+    </div>
+    <div class="container">  
+        <div class="valentines">
+            <div class="envelope"></div>
+            <div class="front"></div>
+            <div class="card">
+                <div class="text">一周年纪念日快乐!</br> ヾ(≧∇≦*)ゝ</div>
+                <div class="heart"></div>
+                <div class="hearts">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                    <div class="four"></div>
+                    <div class="five"></div>
+                </div>
+            </div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+    <div class="modal" id="modal1">
+      <div class="modal-dialog">
+        <section class="modal-content">亲爱的杨杨，我的温柔可爱的小丫头：<br><div style="text-align:right; width:100%;" >今天是我们相识一周年的日子，回忆起这一年与面哒经历的点点滴滴，满是</div >
+          幸福和暖意。一年前,我们还是两条在的各自时空里延展的平行线，因为国宏老
+          
+          <br>师课程的契机，这两条平行线相遇，我也深深迷上了你。无数次脑海里的预演，
+          
+          <br>那个胆小鬼小朋友做出了人生中最正确最勇敢的决定-向可爱的面哒要联系方
+          
+          <br>式。于是两条平行线就此交汇，慢慢的相识、相知，开始分享甚至成为对方生活
+          
+          <br>的点点滴滴。原来这个女孩不止是甜美可爱，她有一颗温暖细腻的心在生活中为
+          
+          <br>他人传递善意，有时活泼搞怪是个给他人带去笑容的小精灵。她体贴温柔，每次
+          
+          <br>小朋友犯错她都说没关系我们一起解决，让小朋友认识到原来和喜欢的的在一
+          
+          <br>起，可以不用逞强，每一步都走的落落大方。在这一年里，我们一起品尝过好多
+          
+          <br>好吃的美食，一起拉着小手走过许许多多街道小巷，一起分享感悟某时刻的喜悦
+          
+          <br>或悲伤...，这些和面哒一起经历过的点点滴滴，是小朋友最最珍贵的宝藏。<div style="text-align:right; width:100%;" >——爱你的小老头.</div><br><br>接下来的内容，请小丫头点击右边的小黑点阅览</section>
+      </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
